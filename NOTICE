@@ -1,0 +1,48 @@
+Herdr Starship, a layout for the Herdr app
+Copyright (c) 2026 matthewishandsome
+
+Herdr Starship is based on Herdr Glass by Noah Chen
+(https://github.com/noah4520/herdr-glass), MIT License, Copyright (c) 2026 Noah Chen.
+Herdr Starship's changes are under the same MIT License (LICENSE): the Starship
+background as the default, the usage meters in mods/herdr-starship-pane, the bundled
+font, extras/claude-statusline.sh and the documents.
+
+Herdr Glass's own work, carried over here: the Appearance dialog
+(mods/herdr-starship-bg), the preset background pictures, the theme, the install script.
+
+These parts are derived from the Herdr app (https://github.com/herdrdev/herdr-app,
+defaults/), which is licensed under the Apache License 2.0 (licenses/Herdr-Apache-2.0.txt):
+
+- layouts/herdr-starship.json, from Herdr's `main` layout (0.1.16): restyled as glass cards,
+  with a background picture, its own theme and notifications mod.
+- mods/herdr-starship-tabs, from `tabs` (0.1.16): no bottom border; the sidebar's
+  spacing.
+- mods/herdr-starship-pane, from `pane` (0.1.16): the header's content further in; the
+  model and plan-usage meters for Claude Code panes.
+- mods/herdr-starship-chrome, from `workspace-chrome` (0.1.16): an Appearance row in the
+  footer; on the macOS rail, the fold button under the traffic lights.
+- mods/herdr-starship-spaces, from `spaces` (0.1.16): no letter avatars.
+- mods/herdr-starship-agents, from `agents` (0.1.16): grouped by space by default, the fold
+  chevron after the group's name, no unfold button on the rail.
+- mods/herdr-starship-status, from `workspace-status` (0.1.16): no top border line; text
+  further in.
+- mods/herdr-starship-toast, from `toast` (0.1.16): a colour bar by level, the agent's live
+  title in the body.
+
+Each of those mods' main.js starts with a note of what was changed.
+
+The icons in mods/herdr-starship-chrome, mods/herdr-starship-tabs and mods/herdr-starship-pane
+are from Lucide
+(https://lucide.dev), ISC License, most of them as shipped with Herdr's mods. The
+full notice is in licenses/Lucide-ISC.txt.
+
+MesloLGM Nerd Font Mono (mods/herdr-starship-bg/fonts/): Meslo LG, Copyright 2009, 2010,
+2013 André Berg, Apache License 2.0; patched by Nerd Fonts (Ryan L McIntyre). See
+licenses/MesloLGM-Nerd-Font-LICENSE.txt.
+
+The background photo mods/herdr-starship-bg/presets/starship.jpg ("Starship moving to
+Starbase", from iDownloadBlog's Starship wallpaper post, photographer not named) is NOT
+covered by the licenses above. All rights remain with its owner; it will be removed on
+the owner's request.
+
+Herdr Starship is a community layout, not affiliated with or endorsed by Herdr or SpaceX.
